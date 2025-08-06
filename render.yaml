@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: anonymous-contact-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8309903332:AAG6_v14dizWXtzzD3AUi-hDUvBrzaTWcgY
+      - key: ADMIN_ID
+        value: "8215800803"
